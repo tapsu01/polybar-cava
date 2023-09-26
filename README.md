@@ -28,6 +28,16 @@ label = %output%
 
 change `exec` value to where you put `cava.sh`.
 
+Default audio input is `alsa`.
+
+Your can change audio input of bar by modifying the cava config section in `cava.sh`.
+
+```
+[input]
+method = pulse
+source = auto
+```
+
 You can change the number of bar by modifying the cava config section in `cava.sh`.
 ```
 [general]
